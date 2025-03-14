@@ -1,0 +1,45 @@
+.statistics {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .stat-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 14px;
+  }
+  
+  .percentage {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+
+  .item[data-percentage="22"] { background-color: #3498db; }
+  .item[data-percentage="4"] { background-color: #9b59b6; }
+  .item[data-percentage="17"] { background-color: #e74c3c; }
+  .item[data-percentage="47"] { background-color: #2bb3c0; }
+  
