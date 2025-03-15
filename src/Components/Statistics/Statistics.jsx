@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const colors=["#0588f4","#b803ff","#c92121","#6cad9e","#00f842"]
+
 const ItemStyle=styled.li`
   display: block;
   max-height: 60px;
